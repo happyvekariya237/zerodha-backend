@@ -43,7 +43,7 @@ app.get("/",(req,res)=>{
   res.send("hellow")
 })
 
-app.get("/allHolding", async (req, res) => {
+app.get("/allholdings", async (req, res) => {
   let allholding = await holdingModel.find({});
   res.json(allholding);
 });
