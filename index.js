@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8080;
 const uri = process.env.MONGO_URL;
 
 // -------------------- FIXED CORS (PLACE ON TOP) --------------------
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174","https://zerodha-dashboard-rh4a.onrender.com","https://zerodha-backend-lobs.onrender.com/"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174","https://zerodha-dashboard-rh4a.onrender.com","https://zerodha-frontend-ddlu.onrender.com"];
 
 app.use(cors({
   origin: function(origin, callback){
